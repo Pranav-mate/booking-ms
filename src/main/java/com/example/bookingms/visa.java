@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class train {
-    @GetMapping("/train")
+public class visa {
+    @GetMapping("/visa")
     public String getData(){
-        return "book the train from irctc";
+        return "H1B for us is delayed";
     }
 }
